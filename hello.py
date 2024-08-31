@@ -1,7 +1,4 @@
 import streamlit as st
-from PIL import Image
-image=Image.open(r'C:\Users\daksh\Downloads\bank.jpeg')
-st.image(image,caption='WELCOME TO VVT BANK')
 st.title('Loan calculator')
 st.header("VVT BANK OF INDIA")
 st.text_input("Enter your name")
