@@ -30,6 +30,4 @@ st.markdown("""
 }
 </style>
 """, unsafe_allow_html=True)
-menu=['tea':100,'coffee':200,'snacks':300]
-for i in range(menu):
-    st.selectbox('would you like to have somethong',menu(i))
+
