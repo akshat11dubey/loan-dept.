@@ -13,6 +13,11 @@ if y>=50000:
 else:
      st.write('sorry sir')
 z=st.radio('Are you govt. emp',options=['yes','no'])
+if z>='yes':
+    st.write('congratulations')
+    st.balloons()
+else:
+     st.write('sorry sir')
 st.checkbox('do you have a credit card')
 st.sidebar.header('schemes from Loan dept')
 st.checkbox('do you have a atm card')
