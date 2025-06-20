@@ -24,7 +24,7 @@ st.checkbox('do you have a atm card')
 st.sidebar.markdown('education loan')
 st.sidebar.markdown('business loan')
 st.sidebar.markdown('farming loan')
-st.sidebar.markdown(['home loan')
+st.sidebar.markdown('home loan')
 st.markdown("""
 <style>
 .big-font {
