@@ -1,9 +1,9 @@
 import streamlit as st
 st.title('Loan calculator')
-st.header("VVT BANK OF INDIA")
+st.header("HDFC BANK OF INDIA")
 st.text_input("Enter your name")
 st.text_input("Enter your bank account number ")
-st.text_input("Enter your account type")
+st.text_input("Enter your account type",option=['saving','student','private','joined'])
 st.text_input("Enter your address")
 st.text_input('Enter your amount')
 y=st.number_input('Enter your salary')
