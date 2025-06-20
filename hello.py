@@ -21,10 +21,10 @@ else:
 st.checkbox('do you have a credit card')
 st.sidebar.header('schemes from Loan dept')
 st.checkbox('do you have a atm card')
-st.sidebar.markdown(["1~education loan"])
-st.sidebar.markdown(["2~business loan"])
-st.sidebar.markdown(["3~farming loan"])
-st.sidebar.markdown(['4~home loan'])
+st.sidebar.markdown('education loan')
+st.sidebar.markdown('business loan')
+st.sidebar.markdown('farming loan')
+st.sidebar.markdown(['home loan')
 st.markdown("""
 <style>
 .big-font {
